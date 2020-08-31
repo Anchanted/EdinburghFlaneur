@@ -1,0 +1,22 @@
+.page-content4 {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .distance-selector-wrapper {
+        height: 495px;
+
+        .distance-selector-title {
+            font-size: 36px;
+            color: #4f8a8b;
+            margin-bottom: 20px;
+        }
+    }
+
+    .map {
+        width: 950px;
+        height: 495px;
+        background-color: #4f8a8b;
+    }
+}

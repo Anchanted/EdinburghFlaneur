@@ -1,0 +1,19 @@
+.page-content2 {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        width: 535px;
+        height: 104px;
+        background-color: #4f8a8b;
+        color: #ffffff;
+        font-size: 40px;
+        border-radius: 15px;
+
+        &:active {
+            background-color: #ea907a !important;
+        }
+    }
+}

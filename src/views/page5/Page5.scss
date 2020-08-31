@@ -1,0 +1,92 @@
+.page-content5 {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .category-wrapper {
+        width: 619px;
+        height: 495px;
+
+        .category-title {
+            font-size: 36px;
+            color: #4f8a8b;
+            margin-bottom: 20px;
+        }
+
+        .category-content-area {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 9px;
+            
+            .tag-wrapper {
+                margin-right: 21px;
+            }
+        }
+        
+        .category-sub-content-area {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 37px;
+
+            .tag-wrapper {
+                margin-right: 6px;
+            }
+        }
+
+        .search-bar {
+            width: 619px;
+            height: 62px;
+            background-color: #ffffff;
+            border: solid 2px #4f8a8b;
+            border-radius: 10px;
+            display: flex;
+
+            input {
+                padding-left: 41px;
+                height: 100%;
+                font-size: 20px;
+                flex-grow: 1;
+                
+                &::placeholder { /* Chrome/Opera/Safari */
+                    color: #283c5c;
+                    opacity: 0.59;
+                }
+                &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                    color: #283c5c;
+                    opacity: 0.59;
+                }
+                &::-moz-placeholder { /* Firefox 19+ */
+                    color: #283c5c;
+                    opacity: 0.59;
+                }
+                &:-ms-input-placeholder { /* IE 10+ */
+                    color: #283c5c;
+                    opacity: 0.59;
+                }
+                &:-moz-placeholder { /* Firefox 18- */
+                    color: #283c5c;
+                    opacity: 0.59;
+                }
+            }
+
+            button {
+                width: 159px;
+                height: 100%;
+                font-size: 28px;
+                background-color: #4f8a8b;
+                color: #ffffff;
+                flex-shrink: 0;
+                border-radius: 0 10px 10px 0;
+            }
+        }
+    }
+
+    .map {
+        width: 950px;
+        height: 495px;
+        background-color: #4f8a8b;
+    }
+}

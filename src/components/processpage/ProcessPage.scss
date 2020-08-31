@@ -1,0 +1,41 @@
+.page {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    border: 1px solid transparent;
+    padding: 0 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .router-icon {
+        font-size: 40px;
+        line-height: 40px;
+        position: absolute;
+        color: #4f8a8b;
+        cursor: pointer;
+
+        &-up {
+            top: 78px;
+        }
+
+        &-down {
+            bottom: 78px;
+        }
+
+        &:hover {
+            color: #ea907a;
+        }
+    }
+
+    .page-content-wrapper {
+        width: 100%;
+
+        .page-content-title {
+            font-size: 78px;
+            color: #4f8a8b;
+            margin-bottom: 50px;
+        }
+    }
+}

@@ -1,13 +1,70 @@
+@import "./assets/css/futura/futura.css";
+@import "./assets/css/iconfont/iconfont.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  position: relative;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Futura', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent; 
+  outline: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input{  
+	background: none;  
+	outline: none;  
+  border: none;
+  font-family: inherit;
+}
+
+input:focus{   
+	border: none;
+}
+
+textarea {
+  background: none;  
+	outline: none;  
+  border: none;
+  font-family: inherit;
+  resize: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.my-a {
+  cursor: pointer;
+}
+
+.my-a:hover {
+	color: #ffcb74 !important;
+}
+
+.my-a-underline:hover {
+  text-decoration: underline;
+}
+
+.my-button:hover {
+  background-color: #ffcb74 !important;
 }

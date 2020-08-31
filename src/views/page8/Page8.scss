@@ -1,0 +1,46 @@
+.page-content8 {
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .main-icon {
+        // width: 265px;
+        // height: 265px;
+        font-size: 265px;
+        color: #ffcb74;
+        margin-bottom: 72px;
+    }
+
+    .bottom-bar {
+        &-text {
+            font-size: 26px;
+            color: #4f8a8b;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        &-button-group {
+            .bottom-bar-button {
+                width: 263px;
+                height: 69px;
+                font-size: 26px;
+                color: #ffffff;
+                border-radius: 8px;
+            }
+
+            .bottom-bar-button:not(:last-child) {
+                margin-right: 128px;
+            }
+
+            .button-confirm {
+                background-color: #4f8a8b;
+            }
+
+            .button-cancel {
+                background-color: #ea907a;
+            }
+        }
+    }
+}

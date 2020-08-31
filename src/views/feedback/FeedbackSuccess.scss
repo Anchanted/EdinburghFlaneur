@@ -1,0 +1,30 @@
+.page {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+        font-size: 78px;
+        color: #4f8a8b;
+        margin-bottom: 138px;
+    }
+    
+    &-icon {
+        font-size: 256px;
+        line-height: 256px;
+        color: #ea907a;
+        margin-bottom: 139px;
+    }
+
+    &-button {
+        width: 263px;
+        height: 69px;
+        background-color: #4f8a8b;
+        font-size: 26px;
+        color: #ffffff;
+        border-radius: 8px;
+    }
+}
